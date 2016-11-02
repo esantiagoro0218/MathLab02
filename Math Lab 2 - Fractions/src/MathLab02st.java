@@ -27,40 +27,19 @@ public class MathLab02st
 
 class Rational
 {
-	int num, den;
 		
 //	Rational
-	public Rational(int n, int d)
-	{
-		num = n;
-		den = d;
-	}
 	
 //	getNum
-	public int getNum()
-	{
-		return num;
-	}
+	
 //	getDen
-public int getDen()
-{
-	return den; 
-}
+
 //	getDecimal
-public double getDecimal ()
-{
-	return (double) num/den;
-}
+
 //	getRational 
-	public String getRational ()
-	{
-		return ( num + "/" + den);
-	}
+	
 //	getOriginal
-public String getOriginal ()
-{
-	return ( oNum + "/" + oDen);
-}
+
 //	reduce
 
 	private int getGCF(int n1,int n2)
